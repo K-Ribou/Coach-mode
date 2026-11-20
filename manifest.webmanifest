@@ -1,0 +1,10 @@
+{
+  "name": "Coach Mode — Préparation physique",
+  "short_name": "Coach Mode",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#101827",
+  "lang": "fr",
+  "description": "Suivi personnel entraînement, nutrition et progression jusqu'au 31 janvier 2027."
+}

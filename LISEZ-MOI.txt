@@ -1,0 +1,23 @@
+COACH MODE — INSTALLATION
+
+Contenu :
+- index.html : application web
+- manifest.webmanifest : paramètres d'installation PWA
+- sw.js : cache hors ligne après première visite
+
+IMPORTANT :
+Pour l'installer comme application sur iPhone, les fichiers doivent être publiés sur une adresse HTTPS (un simple fichier local ne suffit pas pour une PWA installable).
+1. Publier le contenu de ce dossier sur un hébergement HTTPS statique.
+2. Ouvrir l'URL dans Safari sur l'iPhone.
+3. Partager > Sur l'écran d'accueil > Ajouter.
+
+Données :
+- Enregistrées localement dans le navigateur de cet appareil (localStorage).
+- Elles ne se synchronisent pas entre appareils.
+- Utiliser Réglages > Exporter mes données pour sauvegarder régulièrement.
+- Importer le JSON après changement de téléphone ou de navigateur.
+
+Limites :
+- Les rappels web en arrière-plan ne sont pas garantis sur iOS. L'autorisation dépend de la version iOS et de l'installation PWA.
+- Pour des notifications fiables, une future version avec service de notifications/push et hébergement backend serait nécessaire.
+- L'application est un prototype fonctionnel personnel, pas une application médicale.
